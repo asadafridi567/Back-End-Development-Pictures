@@ -101,3 +101,5 @@ def delete_picture(id):
         return '', 204
 
     return jsonify({"message": f"Picture with id {id} not found"}), 404
+
+#end
